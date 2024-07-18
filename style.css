@@ -1,0 +1,261 @@
+.section-1 {
+    width: 100%;
+    height: 600px;
+    background-color: bisque;
+}
+
+.section-1 h1 {
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(58, 55, 55);
+}
+
+.section-1 p {
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.section-1 h5 {
+    color: rgba(9, 92, 64, 0.742);
+    margin-left: 100px;
+}
+
+.section-1 button {
+    margin-left: 100px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: white;
+    background-color: rgba(1, 1, 51, 0.855);
+    width: 300px;
+    height: 50px;
+    border: none;
+}
+
+@media screen and (max-width: 988px) {
+
+    .section-1 {
+        height: 1000px;
+    }
+
+    .section-1 h1 {
+        margin-left: 50px;
+    }
+
+    .section-1 h5 {
+        margin-left: 50px;
+    }
+
+    .section-1 p {
+        margin-left: 50px;
+    }
+
+    .section-1 button {
+        margin-left: 50px;
+    }
+
+}
+
+
+.section-1 img {
+    margin-top: 100px;
+    width: 370px;
+}
+
+
+.section-3 {
+    background-color: rgb(200, 231, 193);
+    height: 650px;
+}
+
+.section-3 img {
+    margin-top: 100px;
+    width: 400px;
+}
+
+@media screen and (max-width: 988px) {
+
+    .section-3 {
+        height: 950px;
+        text-align: center;
+        padding: 20px;
+    }
+
+}
+
+
+.ads {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ad-card {
+    width: 350px;
+    height: 450px;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.ad-card button {
+    width: 230px;
+    height: 45px;
+    border: solid 1px;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.ad-card button:hover {
+    background-color: rgb(1, 1, 50);
+    color: white;
+    transition: .5s;
+}
+
+
+/* section-5 */
+
+
+.section-5 {
+    width: 100%;
+    height: 580px;
+    background-color: rgba(197, 237, 255, 0.752);
+}
+
+.section-5 h5 {
+    margin-top: 150px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(47, 59, 59, 0.808);
+
+}
+
+.section-5 h1 {
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(58, 55, 55);
+}
+
+.section-5 p {
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.section-5 button {
+    margin-left: 100px;
+    font-weight: bold;
+    margin-top: 30px;
+    color: white;
+    background-color: rgba(1, 1, 51, 0.855);
+    width: 200px;
+    height: 50px;
+    border: none;
+}
+
+.section-5 img {
+    margin-top: 80px;
+    width: 370px;
+}
+
+@media screen and (max-width: 988px) {
+
+    .section-5 {
+        height: 970px;
+    }
+
+}
+
+
+/* section-6 */
+
+.review-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.review-card div {
+    width: 350px;
+    height: 450px;
+    border-radius: 5px;
+    margin: 15px;
+    border: 1px solid rgba(192, 184, 184, 0.423);
+}
+
+.review-card div:hover {
+    box-shadow: 5px 5px 5px 5px rgba(211, 211, 211, 0.656);
+    transition: .5s;
+}
+
+/* section-7 */
+
+.section-7 {
+    background-color: bisque;
+}
+
+.section-7 p {
+    font-size: 20px;
+    color: rgb(31, 31, 58);
+}
+
+.section-7 button {
+    width: 170px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: rgb(31, 31, 58);
+}
+
+/* FOOTER SECTION */
+
+
+.footer-section li {
+    list-style: none;
+    line-height: 30px;
+}
+
+.footer-section a {
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.footer-section a:hover {
+    color: aquamarine;
+}
+
+
+
+/* resources section-2 */
+
+.res-ad-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.res-ad-card div {
+    background-color: rgb(191, 237, 235);
+    margin: 15px;
+    width: 280px;
+    height: 440px;
+}
+
+
+/* about-section-1 */
+
+.about-section-1 p {
+    font-size: 18px;
+    color: rgb(46, 44, 44);
+    line-height: 35px;
+}
+
+.about-section-1 button {
+    font-weight: bold;
+    color: white;
+    background-color: rgba(1, 1, 51, 0.855);
+    width: 300px;
+    height: 50px;
+    border: none;
+}
